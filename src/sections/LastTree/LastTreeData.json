@@ -1,0 +1,243 @@
+[
+    {
+      "category": "contact",
+      "children": [
+        {
+          "time_range": "00:00-08:00",
+          "application": [
+            {
+              "application_name": "ARP-Reply",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 0,
+                  "total_session_count": 870960
+                }
+              ]
+            },
+            {
+              "application_name": "DNS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 17267164,
+                  "total_session_count": 23684
+                }
+              ]
+            },
+            {
+              "application_name": "TLS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2EXTERNAL",
+                  "total_bandwidth": 1627353425,
+                  "total_session_count": 152418
+                }
+              ]
+            },
+            {
+              "application_name": "Unknown",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 1122507,
+                  "total_session_count": 764
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time_range": "08:00-12:00",
+          "application": [
+            {
+              "application_name": "ARP-Reply",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 0,
+                  "total_session_count": 45649
+                }
+              ]
+            },
+            {
+              "application_name": "DNS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 796088,
+                  "total_session_count": 955
+                }
+              ]
+            },
+            {
+              "application_name": "TLS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2EXTERNAL",
+                  "total_bandwidth": 67744644,
+                  "total_session_count": 4584
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time_range": "12:00-14:00",
+          "application": [
+            {
+              "application_name": "ARP-Reply",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 0,
+                  "total_session_count": 10314
+                }
+              ]
+            },
+            {
+              "application_name": "DNS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 184888,
+                  "total_session_count": 191
+                }
+              ]
+            },
+            {
+              "application_name": "TLS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2EXTERNAL",
+                  "total_bandwidth": 7078078,
+                  "total_session_count": 1528
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time_range": "14:00-18:00",
+          "application": [
+            {
+              "application_name": "ARP-Reply",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 0,
+                  "total_session_count": 417908
+                }
+              ]
+            },
+            {
+              "application_name": "DNS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 10564592,
+                  "total_session_count": 14134
+                }
+              ]
+            },
+            {
+              "application_name": "TLS",
+              "direction": [
+                {
+                  "direction": "INTERNAL2EXTERNAL",
+                  "total_bandwidth": 1167076850,
+                  "total_session_count": 85186
+                }
+              ]
+            },
+            {
+              "application_name": "Unknown",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 1796928,
+                  "total_session_count": 1337
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "communication",
+      "children": [
+        {
+          "time_range": "00:00-08:00",
+          "applications": [
+            {
+              "application_name": "Zoom",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 349174,
+                  "total_session_count": 1012
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time_range": "08:00-12:00",
+          "applications": [
+            {
+              "application_name": "Zoom",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 87048,
+                  "total_session_count": 66
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time_range": "12:00-14:00",
+          "applications": [
+            {
+              "application_name": "Discourd",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 911516,
+                  "total_session_count": 22
+                }
+              ]
+            },
+            {
+              "application_name": "Microsoft Teems",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 45516,
+                  "total_session_count": 22
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time_range": "14:00-16:00",
+          "applications": [
+            {
+              "application_name": "Microsoft Teems",
+              "direction": [
+                {
+                  "direction": "INTERNAL2INTERNAL",
+                  "total_bandwidth": 65516,
+                  "total_session_count": 22
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+     
+  ]
